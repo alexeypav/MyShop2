@@ -15,8 +15,9 @@ namespace MyShop.Core.Models
         [DisplayName("Product Name")]
         public string Name { get; set; }
         public string Description { get; set; }
-        public Decimal Price { get; set; }
         [Range(0, 1000)]
+        public Decimal Price { get; set; }
+        
         public string Catagory { get; set; }
         public string Image { get; set; }
 
