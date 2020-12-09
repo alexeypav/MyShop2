@@ -38,8 +38,8 @@ namespace MyShop.DataAccess.SQL
             {
                 dbSet.Attach(t);
 
-                dbSet.Remove(t);
             }
+            dbSet.Remove(t);
         }
 
         public T Find(string Id)
